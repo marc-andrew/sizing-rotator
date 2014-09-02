@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<!--[if IE 6]>
+<html id="ie6" lang="en">
+<![endif]-->
+<!--[if IE 7]>
+<html id="ie7" lang="en">
+<![endif]-->
+<!--[if IE 8]>
+<html id="ie8" lang="en">
+<![endif]-->
+<!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+	<meta charset="UTF-8" />
+
+	<meta name="description"	content="jQuery Sizing Rotator" />
+	<meta name="author"			content="Marc Andrew" />
+	<meta name="keywords"		content="Marc Andrew, Developer, sizing, rotator" />
+
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<link rel="stylesheet" type="text/css" href="sizingrotator/sizingrotator.css" />
+
+	<script type="text/javascript" src="js/jquery/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="sizingrotator/jquery.sizingrotator.js"></script>
+
+	<!--[if lt IE 9]>
+	<script type="text/javascript" src="js/html5.js"></script>
+	<![endif]-->
+
+	<script type="text/javascript">
+
+		$(document).ready(function(){
+
+			$('#size_instructions_rotator').sizingrotator();
+
+		});
+
+	</script>
+
+	<title>jQuery Sizing Rotator</title>
+</head>
+
+<body id="body">
+
+	<div id="wrapper">
+
+		<div id="main">
+			<h1>jQuery Sizing Rotator</h1>
+		</div>
+
+		<div id="size_instructions_rotator">
+			<ul class="selectors">
+				<li><a href="#bust">Bust</a></li>
+				<li><a href="#waist">Waist</a></li>
+				<li><a href="#hip">Hip</a></li>
+				<li><a href="#overarm">Overarm</a></li>
+				<li><a href="#height">Height</a></li>
+			</ul>
+
+			<ul class="rotating_images">
+				<li><img alt="Image 1" src="images/img_1.jpg"></li>
+				<li><img alt="Image 2" src="images/img_2.jpg"></li>
+				<li><img alt="Image 3" src="images/img_3.jpg"></li>
+				<li><img alt="Image 4" src="images/img_4.jpg"></li>
+				<li><img alt="Image 5" src="images/img_5.jpg"></li>
+			</ul>
+
+			<ul class="rotating_txt">
+				<li>
+					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
+				</li>
+				<li>
+					<p>Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+				</li>
+				<li>
+					<p>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
+				</li>
+				<li>
+					<p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi.</p>
+				</li>
+				<li>
+					<p>Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.</p>
+				</li>
+			</ul>
+		</div> <!-- End Rotator -->
+
+		<footer id="footer">
+			<div class="footer-main"><p><a href="https://github.com/marc-andrew/sizing-rotator" title="Fork on GitHub">Fork on GitHub</a></p></div>
+		</footer>
+
+	</div> <!-- End Wrapper -->
+
+</body>
+</html>

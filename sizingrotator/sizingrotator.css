@@ -1,0 +1,73 @@
+/*****************************************************************
+ * Sizing Rotator
+ *****************************************************************/
+#size_instructions_rotator {
+  width: 600px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+#size_instructions_rotator ul {
+  list-style: none;
+}
+
+#size_instructions_rotator .selectors {
+  float: left;
+  width: 33.333%;
+  margin: 0;
+}
+
+#size_instructions_rotator .selectors li {
+  margin-bottom: 5px;
+}
+
+#size_instructions_rotator .selectors li a {
+  background-color: #e8e8e8;
+  display: block;
+  height: 37px;
+  padding: 12px 10px;
+  line-height: 12px;
+}
+
+#size_instructions_rotator .selectors li a.selected {
+  background-color: #ccc;
+}
+
+#size_instructions_rotator .rotating_images {
+  float: left;
+  width: 33.333%;
+  margin: 0;
+  padding: 0;
+}
+
+#size_instructions_rotator .rotating_images li {
+  display: none;
+}
+
+#size_instructions_rotator .rotating_images li:first-child {
+  display: block;
+}
+
+#size_instructions_rotator .rotating_images li img {
+  display: block;
+  margin: 0 auto;
+}
+
+#size_instructions_rotator .rotating_txt {
+  float: left; 
+  width: 33.333%;
+  margin: 0; padding: 0;
+}
+
+#size_instructions_rotator .rotating_txt li {
+  display: none;
+}
+
+#size_instructions_rotator .rotating_txt li:first-child {
+  display: block;
+}
+
+#size_instructions_rotator .rotating_txt li p {
+  padding-right: 0;
+  margin-top: 0;
+}
